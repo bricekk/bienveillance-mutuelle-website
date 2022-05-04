@@ -17,13 +17,13 @@ const Header = () => (
       </div>
 
       <div className="bvm__header-content__people">
-        <img src={people} />
+        <img src={people} alt='Bienveillance Mutuelle community'/>
         <p>1,600 people requested access a visit in last 24 hours</p>
       </div>
     </div>
 
     <div className="bvm__header-image">
-      <img src={hands} />
+      <img src={hands} alt="women hands bienveillance mutuelle"/>
     </div>
   </div>
 );
