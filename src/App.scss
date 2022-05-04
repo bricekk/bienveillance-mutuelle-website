@@ -33,8 +33,9 @@ a{
     background:radial-gradient(circle at 5% 25%, rgba(255, 255, 255, 1) 3%, rgba(255, 173, 22, 1) 100%, rgba(255, 193, 7, 1) 100%);
 
 }
+
 .gradient__text{
-  background: var(--gradien-text);
+  background: linear-gradient(89.97deg, #fcdaad 1.84%, #FFAE1A 102.67%);;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -65,3 +66,5 @@ a{
     margin: 4rem 2rem;
   }
 }
+
+

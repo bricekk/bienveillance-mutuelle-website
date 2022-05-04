@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='bvm__navbar-sign'>
-        <button type='button'>S'enregistrer</button>
+        <button type='button'>Prendre part</button>
       </div>
       <div className='bvm__navbar-menu'>
         {toggleMenu
@@ -35,7 +35,7 @@ const Navbar = () => {
           : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
-          <div className='bvm__navbar-menu_container scale-up-center'>
+          <div className='bvm__navbar-menu_container flip-in-ver-right'>
             <ul>
               <li className="p__opensans">Accueil</li>
               <li className="p__opensans">A propos</li>
@@ -43,7 +43,7 @@ const Navbar = () => {
               <li className="p__opensans">Contact</li>
             </ul>
             <div className='bvm__navbar-menu_container-links-sign'>
-              <button type='button'>S'enregistrer</button>
+              <button type='button'>Prendre part</button>
             </div>
           </div>
         )
