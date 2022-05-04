@@ -31,12 +31,17 @@ const Navbar = () => {
       </div>
       <div className='bvm__navbar-menu'>
         {toggleMenu
-          ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
+          ? <RiCloseLine className='closeLine' color="#fff" size={40} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
           <div className='bvm__navbar-menu_container scale-up-center'>
-            <Menu />
+            <ul>
+              <li className="p__opensans">Accueil</li>
+              <li className="p__opensans">A propos</li>
+              <li className="p__opensans">Evenements</li>
+              <li className="p__opensans">Contact</li>
+            </ul>
             <div className='bvm__navbar-menu_container-links-sign'>
               <button type='button'>S'enregistrer</button>
             </div>
