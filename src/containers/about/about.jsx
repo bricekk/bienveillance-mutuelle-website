@@ -3,7 +3,7 @@ import Activity from '../../components/activity/activity';
 import './about.scss';
 import {IoMdImages} from 'react-icons/io'
 
-const WhatGPT3 = () => (
+const About = () => (
   <div className="bvm__about gradient__about section__margin" id="wgpt3">
     <div className="bvm__about-activity">
       <Activity title="Contexte" text="La femme a un rôle précieux et occupe une place de choix dans la société. 
@@ -29,4 +29,4 @@ En réalité, force est de constater qu’une  relation saine, sincère, sans hy
   </div>
 );
 
-export default WhatGPT3;
+export default About;
