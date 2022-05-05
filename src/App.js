@@ -2,6 +2,7 @@ import './App.scss';
 import './index.scss'
 
 import { Navbar, Header } from './components';
+import { About } from './containers'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </div>
       <div>
         <Header />
+        <About />
       </div>
     </div>
   );

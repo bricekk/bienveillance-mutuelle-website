@@ -1,0 +1,139 @@
+.bvm__about {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gradient__about{
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 1) 0%, rgba(255, 174, 26, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 1) 0%, rgba(255, 174, 26, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 1) 0%, rgba(255, 174, 26, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 1) 0%, rgba(255, 174, 26, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 1) 0%, rgba(255, 174, 26, 1) 100%);
+
+}
+
+.bvm__about-activity {
+    display: flex;
+}
+
+/* Customizing activity component as per needs */
+.bvm__about-activity .bvm__activities-container__activities {
+    margin: 0;
+}
+
+/* Customizing activity component as per needs */
+.bvm__about-activity .bvm__activities-container_activity-text {
+    max-width: 700px;
+}
+
+.bvm__about-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.bvm__about-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.bvm__about-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bvm__about-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing activity component as per needs */
+.bvm__about-container .bvm__activities-container__activitiy {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing activity component as per needs */
+.bvm__about-container .bvm__activities-container_activity-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .bvm__about-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .bvm__about-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing activity component as per needs */
+    .bvm__about-activity .bvm__activities-container__activity {
+        flex-direction: column;
+    }
+
+    /* Customizing activity component as per needs */
+    .bvm__about-activity .bvm__activities-container_activity-text {
+        margin-top: 0.5rem;
+    }
+
+    .bvm__about-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing activity component as per needs */
+    .bvm__about-container .bvm__activities-container__activity {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    /* Customizing activity component as per needs */
+    .bvm__about-container .bvm__activities-container__activity {
+        flex: 1;
+        margin: 1rem;
+        min-width: 210px;
+        display: unset;
+        flex-direction: column;
+    }
+}
