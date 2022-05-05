@@ -1,6 +1,6 @@
 import React from 'react';
 import people from '../../assets/people.png';
-import hands from '../../assets/hands.png';
+import img1 from '../../assets/img1.jpg';
 import './header.scss';
 
 const Header = () => (
@@ -23,7 +23,7 @@ const Header = () => (
     </div>
 
     <div className="bvm__header-image">
-      <img src={hands} alt="women hands bienveillance mutuelle"/>
+      <img src={img1} alt="women img1 bienveillance mutuelle"/>
     </div>
   </div>
 );
