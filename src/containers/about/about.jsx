@@ -20,10 +20,11 @@ En réalité, force est de constater qu’une  relation saine, sincère, sans hy
       <p className=''>Parcourir la gallerie <IoMdImages color="#000" size={30} /></p>
     </div>
     <div className="bvm__about-container">
-      <Activity title="Des pique-niques" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Activity title="Zumba-yoga" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Activity title="Des pauses thé" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Activity title="Conférences" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />   
+      <Activity title="Pique-niques et Randonn&eacute;es" text="Avec des jeux et d'autres activit&eacute; pour forger la bienveillance ainsi que des discours sur la bienveillance. sur la bienveillance" />
+      <Activity title="Zumba-yoga" text="Des matinées zumba-yoga suivis de causeries(témoignages, suggestions, questions etc..) sur la bienveillance mutuelle entre les femmes autour d'une collation-sant&eacute;." />
+      <Activity title="Conf&eacute;rences" text="Des conférences avec des femmes inspirantes afin de  débattre des enjeux sociaux du point de vue féminin. ainsi que des discours sur la bienveillance sur la bienveillance." />
+      <Activity title="Soir&eacute;es" text="Des soirées dansantes chic pendant lesquelles des femmes prennent la parole pour partager leur vision de Bienveillance. ainsi que des discours. ainsi que des discours ." />
+      <Activity title="Des pauses th&eacute;" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />      
     </div>
   </div>
 );
