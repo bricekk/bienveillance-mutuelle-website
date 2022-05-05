@@ -106,11 +106,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.bvm__header-image img {
-    width: auto;
-    height: 620px;
+    img {
+        width: auto;
+        height: 620px;
+    }
 }
 
 @media screen and (max-width: 1180px) {
@@ -130,9 +130,10 @@
     }
 
     .bvm__header-image {
-        margin: 0 0 3rem;
         img {
-            height: 400px;
+            height: 300px;
+            max-width: 100%;
+            width: auto;
         }
     }
 
@@ -182,7 +183,7 @@
             height: 500px;
         }
     }
-} 
+}
 
 @media screen and (max-width:1330px) and (min-width:1180px) {
 
@@ -192,4 +193,4 @@
             height: 430px;
         }
     }
-} 
+}
