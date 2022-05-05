@@ -4,7 +4,7 @@
 }
 
 .bvm__header-content {
-    flex: 1;
+    flex: auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -110,7 +110,7 @@
 
 .bvm__header-image img {
     width: auto;
-    height: auto;
+    height: 620px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -175,6 +175,28 @@
         img {
             width: auto;
             height: auto;
+        }
+    }
+}
+
+@media screen and (max-width:1660px) and (min-width:1252px) {
+
+    .bvm__header-image {
+
+        max-width: 500px;
+        img {
+            width: auto;
+            height: 600px;
+        }
+    }
+}
+
+@media screen and (max-width:1260px) and (min-width:1050px) {
+
+    .bvm__header-image {
+        img {
+            width: auto;
+            height: 700px;
         }
     }
 }
