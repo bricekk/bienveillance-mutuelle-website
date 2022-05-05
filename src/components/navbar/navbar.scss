@@ -18,8 +18,8 @@
 .bvm__navbar-links_container {
     display: flex;
     flex-direction: row;
-    
-    .active{
+
+    .active {
         color: black;
         opacity: 0.5;
     }
@@ -172,14 +172,37 @@
     }
 }
 
+@media screen and (max-width:1382px) and (min-width:1252px) {
+
+    .bvm__navbar img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:1252px) and (min-width:1049px) {
+
+    .bvm__navbar-links_container{
+        display: none;
+    }
+    .bvm__navbar-menu {
+        display: contents;
+    }
+    .bvm__navbar-sign{
+        button{
+            margin-right: 2rem;
+        }
+    }
+}
+
 @media screen and (max-width:550px) {
 
-    img {
-        width: 250px;
-    }
 
     .bvm__navbar {
         padding-left: 0;
         padding-right: 0;
+
+        img {
+            width: 250px;
+        }
     }
 }
