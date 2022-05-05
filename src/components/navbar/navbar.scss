@@ -1,5 +1,6 @@
 .bvm__navbar {
     display: flex;
+    flex-basis: auto;
     justify-content: space-between;
     align-items: center;
     padding-left: 6rem;
@@ -35,9 +36,11 @@
 .bvm__navbar-menu_container p {
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 19px;
+    font-size: 1rem;
     text-transform: capitalize;
     line-height: 25px;
+    flex: 0 0 auto;
+    width: auto;
 
     margin: 0 1rem;
     cursor: pointer;
@@ -52,7 +55,7 @@
     background-color: #fff;
     border-color: #FFAE1A;
     font-family: var(--font-family);
-    font-size: 19px;
+    font-size: 1.18rem;
     font-weight: 900;
     line-height: 25px;
     border-radius: 5px;
