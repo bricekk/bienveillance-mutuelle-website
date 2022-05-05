@@ -12,7 +12,7 @@ function App() {
       </div>
       <div>
         <Header />
-        <About />
+        <About/>
       </div>
     </div>
   );
