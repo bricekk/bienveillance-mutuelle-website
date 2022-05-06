@@ -1,6 +1,6 @@
 import './App.scss';
 import './index.scss';
-import {img1, img2} from './assets'
+import {img1, img2, img5} from './assets'
 
 
 import { Navbar } from './components';
@@ -18,12 +18,15 @@ function App() {
       <div>
         <Header />
         <About />
-        <Swiper>
+        <Swiper slidesPerView={1}>
           <SwiperSlide>
-            <Life image={img1} title="Recollection BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre" />
+            <Life image={img1} title="Recollection BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre." />
             </SwiperSlide>
             <SwiperSlide>
-            <Life image={img2} title="Mamadaou BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre" />
+            <Life image={img2} title="Dejeuner BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre." />
+            </SwiperSlide>
+            <SwiperSlide>
+            <Life image={img5} title="Soir&eacute;e BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et s'amuser ensemble afin de mieux nous connaitre." />
             </SwiperSlide>
         </Swiper>
         <Footer />
