@@ -1,6 +1,6 @@
 import React from 'react';
 import './life.scss';
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { useSwiper } from 'swiper/react';
 
 
 const Life = ({ image, title, text }) => {
