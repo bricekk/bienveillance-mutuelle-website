@@ -1,10 +1,13 @@
 import './App.scss';
 import './index.scss';
-import img1 from './assets/img5.jpg'
+import {img1, img2} from './assets'
 
 
 import { Navbar } from './components';
 import { About, Header, Footer, Life } from './containers'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+
 
 function App() {
   return (
@@ -14,8 +17,15 @@ function App() {
       </div>
       <div>
         <Header />
-        <About/>
-        <Life image={img1} title="Recollection BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre"/>
+        <About />
+        <Swiper>
+          <SwiperSlide>
+            <Life image={img1} title="Recollection BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre" />
+            </SwiperSlide>
+            <SwiperSlide>
+            <Life image={img2} title="Mamadaou BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre" />
+            </SwiperSlide>
+        </Swiper>
         <Footer />
       </div>
     </div>
