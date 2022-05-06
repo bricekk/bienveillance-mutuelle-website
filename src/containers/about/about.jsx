@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import Activity from '../../components/activity/activity';
 import './about.scss';
 import { IoMdImages, IoIosArrowDropdownCircle } from 'react-icons/io'
 
 const About = () => {
 
-  const [moreFeatures, showMorefeatures] = useState(false);
 
   return (
     <div className="bvm__about gradient__about section__margin" id="about">
