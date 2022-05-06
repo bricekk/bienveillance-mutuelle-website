@@ -1,8 +1,11 @@
 import './App.scss';
-import './index.scss'
+import './index.scss';
+import img1 from './assets/img5.jpg'
+import img2 from './assets/img4.jpg'
 
-import { Navbar, Header } from './components';
-import { About } from './containers'
+
+import { Navbar } from './components';
+import { About, Header, Footer, Life } from './containers'
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
       <div>
         <Header />
         <About/>
+        <Life image={img1} title="Recollection BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre"/>
+        <Footer />
       </div>
     </div>
   );

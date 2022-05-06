@@ -37,10 +37,10 @@ const Navbar = () => {
         {toggleMenu && (
           <div className='bvm__navbar-menu_container flip-in-ver-right'>
             <ul>
-              <li className="p__opensans">Accueil</li>
-              <li className="p__opensans">A propos</li>
-              <li className="p__opensans">Evenements</li>
-              <li className="p__opensans">Contact</li>
+              <li className="p__opensans"><a href='#home' onClick={() => setToggleMenu(false)}>Accueil</a></li>
+              <li className="p__opensans"><a href='#about' onClick={() => setToggleMenu(false)}>A propos</a></li>
+              <li className="p__opensans"><a href='#event' onClick={() => setToggleMenu(false)}>Evenement</a></li>
+              <li className="p__opensans"><a href='#contact' onClick={() => setToggleMenu(false)}>Contact</a></li>
             </ul>
             <div className='bvm__navbar-menu_container-links-sign'>
               <button type='button'>Prendre part</button>

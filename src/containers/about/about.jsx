@@ -9,6 +9,7 @@ const About = () => {
   return (
     <div className="bvm__about gradient__about section__margin" id="about">
       <div className="bvm__about-activity">
+
         <Activity title="Contexte" text="La femme a un rôle précieux et occupe une place de choix dans la société. 
 Pour assumer efficacement ce rôle, elle a besoin d'être équilibrée. La contribution des autres femmes à cette équilibre est fondamentale. Et ceci n'est possible que grâce à la bienveillante mutuelle. 
 Les femmes se doivent de s'apprécier et de se respecter mutuellement. 
