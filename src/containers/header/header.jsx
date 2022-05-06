@@ -6,7 +6,7 @@ import './header.scss';
 const Header = () => (
   <div className="bvm__header section__padding" id="home">
     <div className="bvm__header-content">
-      <h1 className="gradient__text">BMBF</h1>
+      <h1 className="gradient__text">BMBFdsafafa</h1>
       <p>Bienvenue sur le site officiel de Bienveillance Mutuelle. <br/>
       L'organisme Bienveillance Mutuelle pour le Bien-être de la Femme (BMBF) est un organisme sans but lucratif dont le mandat est d'organiser des activités, des conférences pour promouvoir la bienveillance entre les femmes.<br/>
       Souscrivez &agrave; la newsletter pour ne rien manquer de notre actualit&eacute;.</p>
