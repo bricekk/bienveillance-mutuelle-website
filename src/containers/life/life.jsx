@@ -10,7 +10,7 @@ const Life = ({ image, title, text }) => (
                 <img src={image} alt="possibility" id='img' />
             </div>
             <div className="bvm__possibility-content">
-                <h4>Request Early Access to Get Started</h4>
+                <h4>Glisser pour voir l'image suivante</h4>
                 <h1 className="gradient__text">{title}</h1>
                 <p>{text}</p>
                 <div className='bvm__possibility-footer'>
