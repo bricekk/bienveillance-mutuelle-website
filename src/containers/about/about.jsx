@@ -27,7 +27,6 @@ En réalité, force est de constater qu’une  relation saine, sincère, sans hy
         <Activity title="Zumba-yoga" text="Des matinées zumba-yoga suivis de causeries(témoignages, suggestions, questions etc..) sur la bienveillance mutuelle entre les femmes autour d'une collation-sant&eacute;." />
 
         <div className='bvm__about-container-buttonFeature'>
-          <p className=''>afficher plus... <IoIosArrowDropdownCircle color='#000' size={15} onClick={() => showMorefeatures(true)}/></p>
         </div>
           <Activity title="Conf&eacute;rences" text="Des conférences avec des femmes inspirantes afin de  débattre des enjeux sociaux du point de vue féminin. ainsi que des discours sur la bienveillance sur la bienveillance." />
           <Activity title="Soir&eacute;es" text="Des soirées dansantes chic pendant lesquelles des femmes prennent la parole pour partager leur vision de Bienveillance. ainsi que des discours. ainsi que des discours ." />
