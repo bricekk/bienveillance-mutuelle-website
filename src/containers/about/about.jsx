@@ -1,7 +1,7 @@
 import React  from 'react';
 import Activity from '../../components/activity/activity';
 import './about.scss';
-import { IoMdImages, IoIosArrowDropdownCircle } from 'react-icons/io'
+import { IoMdImages } from 'react-icons/io'
 
 const About = () => {
 
