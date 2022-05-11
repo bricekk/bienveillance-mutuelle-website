@@ -1,6 +1,6 @@
 import './App.scss';
 import './index.scss';
-import {img1, img2, img5, img9, img7, img8} from './assets'
+import {img1, img2, img5, img9, img7 } from './assets'
 
 
 import { Navbar } from './components';
