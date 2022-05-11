@@ -37,6 +37,7 @@
     font-weight: 800;
     font-size: 64px;
     line-height: 75px;
+    font-weight: 900;
 }
 
 .bvm__footer-btn {
@@ -58,6 +59,8 @@
     line-height: 21px;
     color: #fff;
     word-spacing: 2px;
+    font-weight: 900;
+
 }
 
 .bvm__footer-links {
@@ -66,6 +69,8 @@
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    font-weight: 900;
+
 
     width: 100%;
     text-align: left;
@@ -94,12 +99,16 @@
     font-size: 12px;
     line-height: 15px;
     color: #fff;
+    font-weight: 900;
+
 }
 
 .bvm__footer-links_div {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    font-weight: 900;
+
 }
 
 .bvm__footer-links_div h4 {
@@ -107,6 +116,8 @@
     line-height: 17px;
     font-family: var(--font-family);
     color: #fff;
+    font-weight: 900;
+
 
     margin-bottom: 0.9rem;
 }
@@ -119,6 +130,8 @@
 
     margin: 0.5rem 0;
     cursor: pointer;
+    font-weight: 900;
+
 }
 
 .bvm__footer-copyright {

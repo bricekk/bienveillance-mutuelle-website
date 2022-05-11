@@ -17,6 +17,7 @@ function footer() {
         <div className="bvm__footer-links_div">
           <h4>Contact</h4>
           <p><a href='mailto:bienveillancemutuelle2021@gmail.com'>bienveillancemutuelle2021@gmail.com</a></p>
+          <p>Montr&eacute;al Canada</p>
         </div>
       </div>
 
