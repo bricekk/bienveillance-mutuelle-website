@@ -21,6 +21,12 @@ const Contact = () => {
     };
 
 
+
+    if (submitted) {
+        console.log('submited');
+    }
+
+
     return (
         <div className='section__padding'>
             <h2>Contactez nous</h2><br />
