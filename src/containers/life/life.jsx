@@ -9,7 +9,7 @@ const Life = ({ image, title, text }) => {
 
     return (
         <div className=' section__padding'>
-            <h1 className='h1'>Activit&eacute;s</h1>
+            <h1 className='h1'>D&eacute;couverte</h1>
             <div className="bvm__possibility" id="life">
                 <div className="bvm__possibility-image">
                     <img src={image} alt="possibility" id='img' />

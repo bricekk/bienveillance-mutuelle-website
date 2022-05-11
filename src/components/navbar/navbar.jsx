@@ -6,8 +6,8 @@ import logo from '../../assets/logo.png'
 const Menu = () => (
   <>
     <p><a href='#home'>Acceuil</a></p>
+    <p><a href='#mission'>Missions</a></p>
     <p><a href='#about'>A propos</a></p>
-    <p><a href='#event'>Evenements</a></p>
     <p><a href='#contact'>Contact</a></p>
   </>
 )
@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='bvm__navbar-sign'>
-        <button type='button'>Prendre part</button>
+        <button type='button'>Contribuer</button>
       </div>
       <div className='bvm__navbar-menu'>
         {toggleMenu
@@ -38,12 +38,12 @@ const Navbar = () => {
           <div className='bvm__navbar-menu_container flip-in-ver-right'>
             <ul>
               <li className="p__opensans"><a href='#home' onClick={() => setToggleMenu(false)}>Accueil</a></li>
+              <li className="p__opensans"><a href='#mission' onClick={() => setToggleMenu(false)}>Missions</a></li>
               <li className="p__opensans"><a href='#about' onClick={() => setToggleMenu(false)}>A propos</a></li>
-              <li className="p__opensans"><a href='#event' onClick={() => setToggleMenu(false)}>Evenement</a></li>
               <li className="p__opensans"><a href='#contact' onClick={() => setToggleMenu(false)}>Contact</a></li>
             </ul>
             <div className='bvm__navbar-menu_container-links-sign'>
-              <button type='button'>Prendre part</button>
+              <button type='button'>Contribuer</button>
             </div>
           </div>
         )

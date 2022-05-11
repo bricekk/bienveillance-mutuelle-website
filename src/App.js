@@ -1,10 +1,10 @@
 import './App.scss';
 import './index.scss';
-import {img1, img2, img5} from './assets'
+import {img1, img2, img5, img9, img7, img8} from './assets'
 
 
 import { Navbar } from './components';
-import { About, Header, Footer, Life } from './containers'
+import { About, Header, Footer, Life, Features } from './containers'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
@@ -16,7 +16,8 @@ function App() {
         <Navbar />
       </div>
       <div>
-        <Header />
+        <Header /> 
+        <Features />
         <About />
         <Swiper slidesPerView={1}>
           <SwiperSlide>
@@ -28,7 +29,14 @@ function App() {
             <SwiperSlide>
             <Life image={img5} title="Soir&eacute;e BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et s'amuser ensemble afin de mieux nous connaitre." />
             </SwiperSlide>
+            <SwiperSlide>
+            <Life image={img7} title="Soir&eacute;e BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et s'amuser ensemble afin de mieux nous connaitre." />
+            </SwiperSlide>
+            <SwiperSlide>
+            <Life image={img9} title="Matinee BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et s'amuser ensemble afin de mieux nous connaitre." />
+            </SwiperSlide>
         </Swiper>
+
         <Footer />
       </div>
     </div>
