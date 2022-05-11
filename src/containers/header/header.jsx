@@ -15,11 +15,6 @@ const Header = () => (
         <input type="email" placeholder="Votre adresse email" />
         <button type="button">Souscrire</button>
       </div>
-
-      <div className="bvm__header-content__people">
-        <img src={people} alt='Bienveillance Mutuelle community'/>
-        <p>1,600 people requested access a visit in last 24 hours</p>
-      </div>
     </div>
 
     <div className="bvm__header-image">
