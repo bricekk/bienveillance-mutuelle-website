@@ -1,5 +1,4 @@
 import React from 'react';
-import people from '../../assets/people.png';
 import img1 from '../../assets/img1.jpg';
 import './header.scss';
 
