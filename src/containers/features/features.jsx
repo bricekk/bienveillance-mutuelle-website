@@ -22,7 +22,7 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="mission">
+  <div className="gpt3__features section__margin section__padding" id="mission">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">Missions de BMBF</h1>
       <p>En dehors d'instaurer la sororit&eacute; entre femmes:</p>

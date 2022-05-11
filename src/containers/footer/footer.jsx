@@ -1,25 +1,22 @@
 import React from 'react'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logoW.png'
 import './footer.scss'
+import {IoLogoFacebook, IoLogoInstagram, IoLogoYoutube} from 'react-icons/io'
 
 function footer() {
   return (
-    <div className="bvm__footer section__padding gradient__happier">
+    <div className="bvm__footer section__padding">
       <div className="bvm__footer-links">
         <div className="bvm__footer-links_logo">
           <img src={logo} alt="bvm_logo" />
         </div>
         <div className="bvm__footer-links_div">
           <h4>Reseaux sociaux</h4>
-          <p>Twitter</p>
-          <p>Instagram</p>
-          <p>Likedin</p>
+          <p><IoLogoFacebook color="#fff" size={30}/>  <IoLogoInstagram size={30}/>   <IoLogoYoutube size={30}/></p>
         </div>
         <div className="bvm__footer-links_div">
-          <h4>Siege social</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
-          <p>085-132567</p>
-          <p>bienveillancemutuelle2021@gmail.com</p>
+          <h4>Contact</h4>
+          <p><a href='mailto:bienveillancemutuelle2021@gmail.com'>bienveillancemutuelle2021@gmail.com</a></p>
         </div>
       </div>
 

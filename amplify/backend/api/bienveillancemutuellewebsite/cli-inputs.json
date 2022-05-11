@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "bienveillancemutuellewebsite",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/tmp/amplify-46a44660-b78e-400c-bd6a-0516cf55a977/amplify/backend/api/bienveillancemutuellewebsite/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}

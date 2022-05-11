@@ -8,7 +8,7 @@ const Life = ({ image, title, text }) => {
     const swiper = useSwiper();
 
     return (
-        <div className=' section__padding'>
+        <div className='section__padding'>
             <h1 className='h1'>D&eacute;couverte</h1>
             <div className="bvm__possibility" id="life">
                 <div className="bvm__possibility-image">

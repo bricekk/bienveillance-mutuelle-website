@@ -28,8 +28,8 @@ const Contact = () => {
 
 
     return (
-        <div className='section__padding'>
-            <h2>Contactez nous</h2><br />
+        <div className='section__padding' id="contact">
+            <h2 className='gradient__text h2'>Contactez nous</h2><br />
             <p>Nous vous laissons la possibilit&eacute; de nous laisser un message au cas ou vous auriez a nous dire.</p><br />
 
             <div className="container">
@@ -59,7 +59,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="row" style={{ marginTop: "1rem" }}>
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Soumettre" />
                     </div>
                 </form>
             </div>
