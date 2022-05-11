@@ -148,7 +148,9 @@
         display: unset;
         flex-direction: column;
     }
+}
 
+@media screen and (max-width: 750px) {
     .bvm__about-container-buttonFeature{
         display: block;
         max-width: 100%;
@@ -159,5 +161,3 @@
         }   
     }
 }
-
-@media screen and (min-width: 550px) {}

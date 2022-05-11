@@ -2,24 +2,20 @@ import React, { useState } from 'react';
 import Activity from '../../components/activity/activity';
 import './about.scss';
 import { IoMdImages } from 'react-icons/io'
-
-
-
-
-
-
+import MediaQuery from 'react-responsive'
 
 const About = () => {
 
-const [showMe,setVariable] = useState(false)
 
-function setVariable1(){
+  const [showMe, setVariable] = useState(false)
+
+  function setVariable1() {
     setVariable(true);
-}
+  }
 
-function setVariableLess(){
-  setVariable(false);
-}
+  function setVariableLess() {
+    setVariable(false);
+  }
 
   const Some = () => {
     return (
@@ -29,8 +25,19 @@ function setVariableLess(){
         <Activity title="Des pauses th&eacute;" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />
         <Activity title="Croisieres" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />
         <div className='bvm__about-container-buttonFeature'>
-            <p onClick={() => setVariableLess()}>Afficher moins</p>
+          <p onClick={() => setVariableLess()}>Afficher moins</p>
         </div>
+      </>
+    )
+  }
+
+  const SomeLarge = () => {
+    return (
+      <>
+        <Activity title="Conf&eacute;rences" text="Des conf&eacute;rences avec des femmes inspirantes afin de  d&eacute;battre des enjeux sociaux du point de vue f&eacute;minin. ainsi que des discours sur la bienveillance sur la bienveillance." />
+        <Activity title="Soir&eacute;es" text="Des soir&eacute;es dansantes chic pendant lesquelles des femmes prennent la parole pour partager leur vision de Bienveillance. ainsi que des discours. ainsi que des discours ." />
+        <Activity title="Des pauses th&eacute;" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />
+        <Activity title="Croisieres" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />
       </>
     )
   }
@@ -54,7 +61,9 @@ function setVariableLess(){
       <div className="bvm__about-container">
         <Activity title="Pique-niques et Randonn&eacute;es" text="Avec des jeux et d'autres activit&eacute; pour forger la bienveillance ainsi que des discours sur la bienveillance. sur la bienveillance" />
         <Activity title="Zumba-yoga" text="Des matin&eacute;es zumba-yoga suivis de causeries(t&eacute;moignages, suggestions, questions etc..) sur la bienveillance mutuelle entre les femmes autour d'une collation-sant&eacute;." />
-
+        <MediaQuery minWidth={750}>
+          <SomeLarge />
+        </MediaQuery>
         <div className='bvm__about-container-buttonFeature'>
           {!showMe && (<p onClick={() => setVariable1()}>Afficher plus</p>)}
         </div>

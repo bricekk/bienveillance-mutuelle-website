@@ -3,9 +3,10 @@ import './index.scss';
 import {img1, img2, img5, img9, img7 } from './assets'
 
 
-import { Navbar } from './components';
+import { Navbar, Contact } from './components';
 import { About, Header, Footer, Life, Features } from './containers'
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import 'swiper/css';
 
 
@@ -36,7 +37,7 @@ function App() {
             <Life image={img9} title="Matinee BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et s'amuser ensemble afin de mieux nous connaitre." />
             </SwiperSlide>
         </Swiper>
-
+        <Contact />
         <Footer />
       </div>
     </div>
