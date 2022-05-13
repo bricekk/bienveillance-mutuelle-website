@@ -1,8 +1,14 @@
 import React from 'react';
 import img1 from '../../assets/img1.jpg';
 import './header.scss';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const Header = () => (
+const Header = () => {
+
+  const notify = () => toast("Abonnement...");
+
+  return(
   <div className="bvm__header section__padding" id="home">
     <div className="bvm__header-content">
       <h1 className="gradient__text">BMBF</h1>
@@ -12,7 +18,8 @@ const Header = () => (
 
       <div className="bvm__header-content__input">
         <input type="email" placeholder="Votre adresse email" />
-        <button type="button">Souscrire</button>
+        <button type="button" onClick={notify}>Souscrire</button>
+        <ToastContainer />
       </div>
     </div>
 
@@ -20,6 +27,6 @@ const Header = () => (
       <img src={img1} alt="women img1 bienveillance mutuelle" id='imgheader'/>
     </div>
   </div>
-);
+)};
 
 export default Header;

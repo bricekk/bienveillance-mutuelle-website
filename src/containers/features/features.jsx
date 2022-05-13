@@ -5,19 +5,15 @@ import './features.scss';
 const featuresData = [
   {
     title: 'Improving end distrusts instantly',
-    text: 'L’autonomisation des femmes',
+    text: 'Etablissement de relation saines et sinceres entre les femmes. Que chacune puisse etre hereuse, aussi bien poour elle que pour les autres.',
   },
   {
     title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    text: 'Reunir les femmes dans un collectif vivant et dynamique afin de promouvoir le bien-etre de toutes les femmes du mouvement et du monde.',
   },
   {
     title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
-  },
-  {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    text: 'Instaurer des activites qui permettent aux femmes de rompres la solitudes et echapper a la depression tout en etant en bonne companie dans une ambiance bienveilante.',
   },
 ];
 
@@ -25,7 +21,7 @@ const Features = () => (
   <div className="gpt3__features section__margin section__padding" id="mission">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">Missions de BMBF</h1>
-      <p>En dehors d'instaurer la sororit&eacute; entre femmes:</p>
+      <p>En dehors de promouvoir la sororit&eacute; entre femmes:</p>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (

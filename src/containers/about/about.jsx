@@ -20,9 +20,10 @@ const About = () => {
   const Some = () => {
     return (
       <>
-        <Activity title="Soir&eacute;es" text="Des soir&eacute;es dansantes chic pendant lesquelles des femmes prennent la parole pour partager leur vision de Bienveillance. ainsi que des discours. ainsi que des discours ." />
-        <Activity title="Des pauses th&eacute;" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />
-        <Activity title="Croisieres" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />
+        <Activity title="Sorties au spa" text="Moments d'appaisement au spa, se retrouver dans la convivialit&eacute; prenant soins de nous pour etre a mesure de prendre soin chacune des autres." />
+        <Activity title="Soir&eacute;es" text="Des soir&eacute;es dansantes chic pendant lesquelles des femmes prennent la parole pour partager leur vision et tenir des discours." />
+        <Activity title="Des pauses th&eacute;" text="Pour se d&eacute;tendre et partager davantages sur des sujets portant sur la sororit&eacute;." />
+        <Activity title="Croisieres" text="Des belles croisieres dans le but d'enrichir notre registre d'actvit&eacute;ess." />
         <div className='bvm__about-container-buttonFeature'>
           <p onClick={() => setVariableLess()}>Afficher moins</p>
         </div>
@@ -33,9 +34,10 @@ const About = () => {
   const SomeLarge = () => {
     return (
       <>
-        <Activity title="Soir&eacute;es" text="Des soir&eacute;es dansantes chic pendant lesquelles des femmes prennent la parole pour partager leur vision de Bienveillance. ainsi que des discours. ainsi que des discours ." />
-        <Activity title="Des pauses th&eacute;" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />
-        <Activity title="Croisieres" text="Pour se d&eacute;tendre et partager davantages sur des sujets bienveillants. ainsi que des discours sur la bienveillance. sur la bienveillance sur la bienveillance" />
+        <Activity title="Sorties au spa" text="Moments d'appaisement au spa, se retrouver dans la convivialit&eacute; prenant soins de nous pour etre a mesure de prendre soin chacune des autres." />
+        <Activity title="Soir&eacute;es" text="Des soir&eacute;es dansantes chic pendant lesquelles des femmes prennent la parole pour partager leur vision et tenir des discours." />
+        <Activity title="Des pauses th&eacute;" text="Pour se d&eacute;tendre et partager davantages sur des sujets portant sur la sororit&eacute;." />
+        <Activity title="Croisieres" text="Des belles croisieres dans le but d'enrichir notre registre d'actvit&eacute;ess." />
       </>
     )
   }
@@ -57,8 +59,8 @@ const About = () => {
         <p className=''><a href='#life'>Parcourir la gallerie <IoMdImages color="#000" size={30} /></a></p>
       </div>
       <div className="bvm__about-container">
-        <Activity title="Pique-niques et Randonn&eacute;es" text="Avec des jeux et d'autres activit&eacute; pour forger la bienveillance ainsi que des discours sur la bienveillance. sur la bienveillance" />
         <Activity title="Zumba-yoga" text="Des matin&eacute;es zumba-yoga suivis de causeries(t&eacute;moignages, suggestions, questions etc..) sur la bienveillance mutuelle entre les femmes autour d'une collation-sant&eacute;." />
+        <Activity title="Pique-niques et Randonn&eacute;es" text="Avec des jeux et d'autres activit&eacute; pour nourir la bonne humeur et le vivre ensemble. Le but est d'&eacute; des relations saines et p&eacute;rennes." />
         <MediaQuery minWidth={750}>
           <SomeLarge />
         </MediaQuery>

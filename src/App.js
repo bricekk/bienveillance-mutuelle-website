@@ -23,19 +23,19 @@ function App() {
         <div style={{borderTop:"2px dashed rgba(102, 102, 102, .6)", borderBottom:"2px dashed rgba(102, 102, 102, .6)"}} className="section__margin">
         <Swiper slidesPerView={1}>
           <SwiperSlide>
-            <Life image={img1} title="Recollection BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre." />
+            <Life image={img1} title="Pique-niques" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre et surtout etablir des relations saines et sincerees" />
           </SwiperSlide>
           <SwiperSlide>
-            <Life image={img2} title="Dejeuner BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre." />
+            <Life image={img2} title="Pique-niques" text="L'organisme fait la difference des autres organismes par la qualite du temps passe ensemble" />
           </SwiperSlide>
           <SwiperSlide>
-            <Life image={img5} title="Soir&eacute;e BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et s'amuser ensemble afin de mieux nous connaitre." />
+            <Life image={img5} title="Soir&eacute;es" text="Des soir&eacute;es dansantes et joyeuses ou des femmes se rassemblent pour faire connaissance et nouer des relations &eacute;troites dans l'harmonie et l'ambiance." />
           </SwiperSlide>
           <SwiperSlide>
-            <Life image={img7} title="Soir&eacute;e BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et s'amuser ensemble afin de mieux nous connaitre." />
+            <Life image={img7} title="Des diners" text="" />
           </SwiperSlide>
           <SwiperSlide>
-            <Life image={img9} title="Matinee BMBF" text="C'est regulierement que nous nous regroupons pour partager, echanger et s'amuser ensemble afin de mieux nous connaitre." />
+            <Life image={img9} title="Matinees Zumba Yoga" text="Parenthèses propices au lâcher-prise et à la décompression, ces rassemblements nous stimulent et procurent des sentiments de reconfort et de joie. « On s'offre un instant de relaxation en companie de personnes qui nous comprennent.», " />
           </SwiperSlide>
         </Swiper>
         </div>

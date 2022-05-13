@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='bvm__navbar-sign'>
-        <button type='button'>Contribuer</button>
+        <button type='button' onClick={() => setToggleMenu(false)}><a href='#contact'>Contribuer</a></button>
       </div>
       <div className='bvm__navbar-menu'>
         {toggleMenu
@@ -43,7 +43,7 @@ const Navbar = () => {
               <li className="p__opensans"><a href='#contact' onClick={() => setToggleMenu(false)}>Contact</a></li>
             </ul>
             <div className='bvm__navbar-menu_container-links-sign'>
-              <button type='button'>Contribuer</button>
+              <button type='button' onClick={() => setToggleMenu(false)}><a href='#contact'>Contribuer</a></button>
             </div>
           </div>
         )
