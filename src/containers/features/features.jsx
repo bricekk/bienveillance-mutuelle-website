@@ -4,16 +4,16 @@ import './features.scss';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'Etablissement de relation saines et sinceres entre les femmes. Que chacune puisse etre hereuse, aussi bien poour elle que pour les autres.',
+    title: '',
+    text: 'Etablissement de relation saines et sincères entre les femmes. Que chacune puisse être hereuse, aussi bien poour elle que pour les autres.',
   },
   {
-    title: 'Become the tended active',
-    text: 'Reunir les femmes dans un collectif vivant et dynamique afin de promouvoir le bien-etre de toutes les femmes du mouvement et du monde.',
+    title: '',
+    text: 'Réunir les femmes dans un collectif vivant et dynamique afin de promouvoir le bien-être de toutes les femmes du mouvement et du monde.',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Instaurer des activites qui permettent aux femmes de rompres la solitudes et echapper a la depression tout en etant en bonne companie dans une ambiance bienveilante.',
+    title: '',
+    text: 'Instaurer des activitées qui permettent aux femmes de rompres la solitudes et échapper à la depression tout en étant en bonne companie dans une ambiance bienveillante.',
   },
 ];
 

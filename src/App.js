@@ -23,7 +23,7 @@ function App() {
         <div style={{borderTop:"2px dashed rgba(102, 102, 102, .6)", borderBottom:"2px dashed rgba(102, 102, 102, .6)"}} className="section__margin">
         <Swiper slidesPerView={1}>
           <SwiperSlide>
-            <Life image={img1} title="Pique-niques" text="C'est regulierement que nous nous regroupons pour partager, echanger et dejeuner ensemble afin de mieux nous connaitre et surtout etablir des relations saines et sincerees" />
+            <Life image={img1} title="Pique-niques" text="C'est r&eacute;gulierement que nous nous regroupons pour partager, &eacute;changer et d&eacute;jeuner ensemble afin de mieux nous connaitre et surtout &eacute;tablir des relations saines et sincerees" />
           </SwiperSlide>
           <SwiperSlide>
             <Life image={img2} title="Pique-niques" text="L'organisme fait la difference des autres organismes par la qualite du temps passe ensemble" />
@@ -35,7 +35,7 @@ function App() {
             <Life image={img7} title="Des diners" text="" />
           </SwiperSlide>
           <SwiperSlide>
-            <Life image={img9} title="Matinees Zumba Yoga" text="Parenthèses propices au lâcher-prise et à la décompression, ces rassemblements nous stimulent et procurent des sentiments de reconfort et de joie. « On s'offre un instant de relaxation en companie de personnes qui nous comprennent.», " />
+            <Life image={img9} title="Matin&eacute;es Zumba Yoga" text="Parenthèses propices au lâcher-prise et à la décompression, ces rassemblements nous stimulent et procurent des sentiments de reconfort et de joie. « On s'offre un instant de relaxation en companie de personnes qui nous comprennent.», " />
           </SwiperSlide>
         </Swiper>
         </div>
