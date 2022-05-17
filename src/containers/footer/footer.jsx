@@ -20,7 +20,7 @@ function footer() {
           <p><a href='mailto:bienveillancemutuelle2021@gmail.com'>bienveillancemutuelle2021@gmail.com</a></p>
           <p>Montr&eacute;al Canada</p>
           <div className='logo_footer'>
-          <p><img src={logo2}/></p>
+          <p><img src={logo2} alt="logo bmbf"/></p>
           </div>
         </div>
       </div>
