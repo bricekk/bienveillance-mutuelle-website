@@ -103,6 +103,15 @@
 
 }
 
+.logo_footer{
+    width: 300px;
+    height: 300px;
+    img{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
 .bvm__footer-links_div {
     display: flex;
     justify-content: flex-start;

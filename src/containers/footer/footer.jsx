@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logoW.png'
+import logo2 from '../../assets/1.png'
 import './footer.scss'
 import {IoLogoFacebook, IoLogoInstagram, IoLogoYoutube} from 'react-icons/io'
 
@@ -18,6 +19,9 @@ function footer() {
           <h4>Contact</h4>
           <p><a href='mailto:bienveillancemutuelle2021@gmail.com'>bienveillancemutuelle2021@gmail.com</a></p>
           <p>Montr&eacute;al Canada</p>
+          <div className='logo_footer'>
+          <p><img src={logo2}/></p>
+          </div>
         </div>
       </div>
 
