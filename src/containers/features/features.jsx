@@ -15,6 +15,10 @@ const featuresData = [
     title: '',
     text: 'Instaurer des activitées qui permettent aux femmes de rompres la solitudes et échapper à la depression tout en étant en bonne companie dans une ambiance bienveillante.',
   },
+  {
+    title:'',
+    text: 'Déplacement dans de différents environnements sociaux pour la promotion de la bienveillance mutuelle entre femmes.'
+  }
 ];
 
 const Features = () => (
